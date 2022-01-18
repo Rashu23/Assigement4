@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Taxi Booking Form </h1>
+ <form   >
+ Name : <input type="text" name="cus_name"  ><br><br>
+ Phone : <input type="number" name="pho_cus"><br><br>
+ Email : <input type="email" name="email_cus"  ><br><br>
+ <h3> Which taxi do you require?</h3>
+ <p><label>
+<input type="radio"  name="taxi" value="Car" >Car<br>
+    </label>
+</p>
+ <p> <label>
+     <input type="radio" name="taxi" value="Van"> Van<br>
+</label>
+</p>
+<p>
+    <label>
+        <input type="radio"  name="taxi" value="Tuk Tuk"> Tuk Tuk<br>
+    </label>
+</p> 
+<h3>Extras</h3>
+<p>
+    <label>
+        <input type="checkbox" name="extras" value="baby">Baby Seat
+    </label>
+</p>
+<p>
+    <label>
+        <input type="checkbox" name="extras" value="wheel">Wheelchair Access
+    </label>
+</p>
+<p>
+    <label>
+        <input type="checkbox" name="extras" value="Stock">Stock Tip
+    </label>
+</p>
+<input type="datetime-local" name="Pick-upTime"><br><br>
+<select id="pickup" name="pickup-place" >
+    <option value="selected"> Select one</option>
+    <option value="office">Taxi Office</option>
+    <option value="town"> Town Hall</option>
+    <option value="telepathy">We'll Guess!</option>
+</select><br>
+<h4>drop-off place</h4>
+<input type="text" name="dropoff_place" list="destination">
+<datalist id="destinations">
+    <option value="Airport">
+        <option value="Beach">
+            <option value="Fred Flinstone's House">
+            </datalist><br>
+            <h4>Special Instruction</h4><ol>
+                <li>Open the app.</li>
+                  <li>Select your ride type.</li>
+                      <li>Enter your pick-up and drop-off location.</li>
+                      <li>Tap apply coupon and redeem your offer.</li>
+                      <li>Tap continue and then confirm booking.</li>  
+            </ol>
+<p><button>submit booking</button></p>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
